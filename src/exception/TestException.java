@@ -11,7 +11,8 @@ public class TestException {
         try{
             System.out.println("试图打开 d:/LOL.exe");
             new FileInputStream(f);
-            System.out.println("成功打开");
+            System.out.println();
+            System.out.println("成功被打开");
         }
         catch(FileNotFoundException e){
             System.out.println("d:/LOL.exe不存在");
